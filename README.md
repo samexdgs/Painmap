@@ -130,3 +130,9 @@ MIT — see [LICENSE](LICENSE).
 If you use PainMap in research or teaching, please cite the accompanying manuscript:
 
 > Oluwakoya, S. T. (2026). PainMap: Cross-condition neurological pain self-management with body-map-driven recommendations — design and feasibility of a patient-led research prototype. *Manuscript in preparation.*
+
+- Email: [soluwakoyat@gmail.com](mailto:soluwakoyat@gmail.com),
+- ORCID: [0009-0008-2126-0254](https://orcid.org/0009-0008-2126-0254)
+- GitHub: [github.com/samexdgs](https://github.com/samexdgs)
+- LinkedIn: [linkedin.com/in/samueloluwakoya](https://linkedin.com/in/samueloluwakoya)
+- Portfolio: [samueloluwakoya.netlify.app](https://samueloluwakoya.netlify.app)
