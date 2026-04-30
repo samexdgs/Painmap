@@ -65,40 +65,6 @@ The literature is full of **monitoring**. The literature is empty on **managemen
 
 No paid services. No wearables. No clinic-side integration required.
 
----
-
-## Running locally
-
-```bash
-# Clone
-git clone https://github.com/samexdgs/painmap.git
-cd painmap
-
-# Install
-pip install -r requirements.txt
-
-# Run
-streamlit run app.py
-```
-
-The app opens at `http://localhost:8501`. Sign up with any username, email, password, and condition. SQLite database is auto-created at `painmap.db`.
-
----
-
-## Deploying on Streamlit Community Cloud
-
-1. Push the repo to GitHub.
-2. On [share.streamlit.io](https://share.streamlit.io), click **Deploy an app**.
-3. **Important — set Python 3.11 in Advanced Settings before deploying.** Streamlit Cloud locks the Python version at first deploy. The default Python 3.14 will fail to compile some wheels.
-4. Set the main file to `app.py`.
-5. (Optional) Paste Brevo credentials into **Secrets** using the template at `.streamlit/secrets.toml.template`.
-6. Deploy.
-
-If you accidentally deploy on Python 3.14 and encounter wheel-compilation errors, **delete the app and redeploy with Python 3.11 selected in Advanced Settings**. Editing `runtime.txt` after the fact will not change the locked version. (Lesson learned painfully on SpeakAgain — see project history.)
-
----
-
-## Project structure
 
 ```
 painmap/
@@ -127,13 +93,11 @@ painmap/
 BSc (Hons) Computer Science, Afe Babalola University, Ado-Ekiti, Nigeria
 Lagos, Nigeria · CGPA 4.23/5.00
 
-- Email: [soluwakoyat@gmail.com](mailto:soluwakoyat@gmail.com), [samueloluwakoyat@gmail.com](mailto:samueloluwakoyat@gmail.com)
+- Email: [soluwakoyat@gmail.com](mailto:soluwakoyat@gmail.com),
 - ORCID: [0009-0008-2126-0254](https://orcid.org/0009-0008-2126-0254)
 - GitHub: [github.com/samexdgs](https://github.com/samexdgs)
 - LinkedIn: [linkedin.com/in/samueloluwakoya](https://linkedin.com/in/samueloluwakoya)
 - Portfolio: [samueloluwakoya.netlify.app](https://samueloluwakoya.netlify.app)
-
-The Brevo verified sender domain `Samuel@bloomgatelaw.com` is used **only** for outbound emails. It is **not** a contact address — please use the Gmail addresses above.
 
 ---
 
@@ -150,9 +114,6 @@ PainMap is project #7 of a planned 10-app neurological rehabilitation AI series.
 | 5 | [Family-Connected Stroke Monitor](https://stroketracker2.streamlit.app/) | Streamlit · SMTP | Live (92.4% accuracy) |
 | 6 | [SpeakAgain](https://speakagain2.streamlit.app/) | Streamlit · Anthropic API | Live (9 languages, 5 games) |
 | 7 | **PainMap** | Streamlit · SQLite · ReportLab | **This repo** |
-| 8 | TBD | — | — |
-| 9 | TBD | — | — |
-| 10 | TBD | — | — |
 
 ---
 
